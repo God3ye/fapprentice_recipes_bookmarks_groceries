@@ -140,6 +140,7 @@ class _RecipeListState extends State<RecipeList> {
                         previousSearches.add(value);
                         savePreviousSearches();
                       }
+                      startSearch(searchTextController.text);
                     },
                     controller: searchTextController,
                   )),
